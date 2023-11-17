@@ -9,4 +9,12 @@
   --black: #1b1b1b;
   --blackGray: #272727;
   --blackLight: #343434;
+
+  --xxsmall: 10px;
+  --xsmall: 14px;
+  --small: 18px;
+  --medium: 22px;
+  --large: 26px;
+  --xlarge: 30px;
+  --xxlarge: 34px;
 }
