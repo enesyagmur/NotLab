@@ -1,7 +1,15 @@
 import React from "react";
+import "./logRegComp.css";
 
 const LoginComp = () => {
-  return <div>LoginComp</div>;
+  return (
+    <div className="login-comp">
+      <input type="text" placeholder="Email" className="login-page-input" />
+      <input type="text" placeholder="Şifre" className="login-page-input" />
+      <button className="login-page-btn">Giriş Yap</button>
+      <p>Kayıt Ol</p>
+    </div>
+  );
 };
 
 export default LoginComp;
