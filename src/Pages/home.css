@@ -8,3 +8,53 @@
   align-items: center;
   justify-content: center;
 }
+
+.home-title {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-title p {
+  font-size: var(--xlarge);
+}
+.second-p {
+  color: var(--white);
+  font-size: var(--xxlarge);
+  margin-left: 10px;
+}
+.home-btn {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.home-btn:hover {
+  background-color: var(--blackLight);
+}
+.home-btn-icon {
+  margin-left: 10px;
+}
+
+.home-social {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  font-size: var(--medium);
+}
+.home .icon:hover {
+  color: var(--whiteGray);
+}
