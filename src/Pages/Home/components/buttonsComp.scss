@@ -1,0 +1,32 @@
+.buttons {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 40px;
+
+    &:hover {
+      background-color: var(--blackLight);
+    }
+
+    .home-btn-icon {
+      margin-left: 10px;
+    }
+  }
+}

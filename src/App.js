@@ -1,11 +1,11 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
 import React, { Suspense } from "react";
+import Home from "./Pages/Home/Home";
 
-const Login = React.lazy(() => import("./Pages/Login"));
-const Notes = React.lazy(() => import("./Pages/Notes"));
-const NewNote = React.lazy(() => import("./Pages/NewNote"));
+const LoginRegister = React.lazy(() => import("./Pages/Login/LoginRegister"));
+const Notes = React.lazy(() => import("./Pages/MyNote/MyNotes"));
+const NewNote = React.lazy(() => import("./Pages/NewNote/NewNote"));
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Suspense fallback={<p>Yükleniyor...</p>}>
           <Routes>
-            <Route path="/login" element={<Login />} />
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<LoginRegister />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/newnote" element={<NewNote />} />
           </Routes>

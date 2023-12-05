@@ -1,0 +1,18 @@
+.title {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: var(--medium);
+    color: lightgrey;
+  }
+
+  .second-p {
+    color: var(--white);
+    font-size: var(--xxlarge);
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.social {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  font-size: var(--medium);
+
+  .icon {
+    &:hover {
+      color: var(--whiteGray);
+    }
+  }
+}
