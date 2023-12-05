@@ -1,0 +1,22 @@
+.font-comp {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--white);
+
+  .font-comp-icon {
+    font-size: var(--large);
+    background-color: var(--blackLight);
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--whiteGray);
+    }
+  }
+}

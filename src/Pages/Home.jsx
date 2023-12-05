@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./home.scss";
 import { HiPencilAlt } from "react-icons/hi";
 import { MdNotes } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";

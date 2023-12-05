@@ -1,5 +1,5 @@
 import React from "react";
-import "./logRegComp.css";
+import "./logRegComp.scss";
 
 const RegisterComp = () => {
   return (

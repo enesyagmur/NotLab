@@ -1,12 +1,11 @@
 import React from "react";
-import "./login.css";
+import "./login.scss";
 import LoginComp from "../Components/LoginComp";
-import RegisterComp from "../Components/RegisterComp";
 
 const Login = () => {
   return (
     <div className="login">
-      <RegisterComp />
+      <LoginComp />
     </div>
   );
 };
