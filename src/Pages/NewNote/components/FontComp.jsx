@@ -8,10 +8,17 @@ import { RiFontSize2 } from "react-icons/ri";
 const FontComp = () => {
   return (
     <div className="font-comp">
-      <RxFontBold className="font-comp-icon" />{" "}
-      <RxFontItalic className="font-comp-icon" />{" "}
-      <AiOutlineFontColors className="font-comp-icon" />{" "}
-      <RiFontSize2 className="font-comp-icon" />
+      <RxFontBold className="font-comp-icon" />
+      <RxFontItalic className="font-comp-icon" />
+      <AiOutlineFontColors className="font-comp-icon" />
+
+      <select name="" id="">
+        <option>10</option>
+        <option>14</option>
+        <option>18</option>
+        <option>22</option>
+        <option>26</option>
+      </select>
     </div>
   );
 };

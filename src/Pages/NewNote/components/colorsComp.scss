@@ -1,72 +1,53 @@
-.colors-comp {
-  width: 80%;
-  height: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+select {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--blackLight);
+  border-top: 6px solid var(--red);
+  border-right: 6px solid var(--white);
+  border-bottom: 6px solid var(--blue);
+  border-left: 6px solid var(--green);
+  color: white;
+  cursor: pointer;
 
-  .filter-color {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: aliceblue;
-    margin: 5px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.5s;
-
-    &:hover {
-      opacity: 0.5;
-    }
+  &:hover {
+    background-color: var(--whiteGray);
   }
 
   .red {
     background-color: red;
-    @extend .filter-color;
   }
   .orange {
     background-color: #ef724a;
-    @extend .filter-color;
   }
   .yellow {
     background-color: #f5cc05;
-    @extend .filter-color;
   }
   .green {
     background-color: #57e780;
-    @extend .filter-color;
   }
   .lightBlue {
     background-color: #4ddce5;
-    @extend .filter-color;
   }
   .blue {
     background-color: var(--blue);
-    @extend .filter-color;
   }
   .pink {
     background-color: #e153ff;
-    @extend .filter-color;
   }
   .purple {
     background-color: #864dff;
-    @extend .filter-color;
   }
   .black {
     background-color: var(--black);
-    @extend .filter-color;
   }
   .gray {
     background-color: var(--blackLight);
-    @extend .filter-color;
   }
   .grey {
     background-color: #cccccc;
-    @extend .filter-color;
   }
   .white {
     background-color: var(--white);
-    @extend .filter-color;
   }
 }

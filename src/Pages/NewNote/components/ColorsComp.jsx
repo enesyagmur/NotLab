@@ -3,20 +3,20 @@ import "./colorsComp.scss";
 
 const ColorsComp = () => {
   return (
-    <div className="colors-comp">
-      <div className="red"></div>
-      <div className="orange"></div>
-      <div className="yellow"></div>
-      <div className="green"></div>
-      <div className="lightBlue"></div>
-      <div className="blue"></div>
-      <div className="pink"></div>
-      <div className="purple"></div>
-      <div className="black"></div>
-      <div className="gray"></div>
-      <div className="grey"></div>
-      <div className="white"></div>
-    </div>
+    <select name="" id="">
+      <option className="red"></option>
+      <option className="orange"></option>
+      <option className="yellow"></option>
+      <option className="green"></option>
+      <option className="lightBlue"></option>
+      <option className="blue"></option>
+      <option className="pink"></option>
+      <option className="purple"></option>
+      <option className="black"></option>
+      <option className="gray"></option>
+      <option className="grey"></option>
+      <option className="white"></option>
+    </select>
   );
 };
 

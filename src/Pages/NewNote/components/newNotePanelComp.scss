@@ -1,7 +1,9 @@
 .new-note-panel {
   width: 100%;
-  min-height: 200px;
+  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--blackGray);
+  border-bottom: 2px solid var(--blackLight);
 }
