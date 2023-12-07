@@ -1,0 +1,25 @@
+.contain-title {
+  width: 100%;
+  min-height: 120px;
+  border-bottom: 1px solid var(--blackGray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    width: 80%;
+    height: 50px;
+    background-color: var(--black);
+    border: none;
+    font-size: var(--xlarge);
+    font-weight: bold;
+    color: var(--white);
+
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      border: none;
+    }
+  }
+}

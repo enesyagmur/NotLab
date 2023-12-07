@@ -1,0 +1,21 @@
+.contain-text {
+  width: 100%;
+  min-height: 73vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--whiteGray);
+
+  textarea {
+    width: 80%;
+    min-height: 65vh;
+    margin-top: 40px;
+    background-color: var(--black);
+    color: var(--whiteGray);
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
