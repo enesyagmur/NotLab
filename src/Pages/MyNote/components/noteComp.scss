@@ -1,0 +1,21 @@
+.note-comp {
+  width: 80%;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--whiteGray);
+  color: var(--whiteGray);
+  margin-bottom: 10px;
+  font-size: var(--medium);
+  padding: 10px;
+  text-align: center;
+
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: var(--black);
+    color: var(--white);
+  }
+}

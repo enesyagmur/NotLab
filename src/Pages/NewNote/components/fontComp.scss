@@ -27,10 +27,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-weight: bold;
     background-color: var(--blackLight);
-    color: white;
+    color: var(--white);
     border: none;
 
     &:hover {

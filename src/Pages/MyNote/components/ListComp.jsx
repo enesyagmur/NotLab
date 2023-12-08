@@ -1,8 +1,21 @@
 import React from "react";
-import "./noteListComp.scss";
+import "./listComp.scss";
+import NoteComp from "./NoteComp";
 
-const NoteListComp = () => {
-  return <div>NoteListComp</div>;
+const ListComp = () => {
+  const noteList = [
+    " Lorem ipsum dolor sit.",
+    " Lorem ipsum dolor sit.",
+    " Lorem ipsum dolor sit.",
+    " Lorem ipsum dolor sit.",
+  ];
+  return (
+    <div className="list">
+      {noteList.map((text) => (
+        <NoteComp text={text} />
+      ))}
+    </div>
+  );
 };
 
-export default NoteListComp;
+export default ListComp;

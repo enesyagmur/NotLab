@@ -1,13 +1,13 @@
 .contain-text {
-  width: 100%;
+  width: 80%;
   min-height: 73vh;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   color: var(--whiteGray);
 
   textarea {
-    width: 80%;
+    width: 100%;
     min-height: 65vh;
     margin-top: 40px;
     background-color: var(--black);

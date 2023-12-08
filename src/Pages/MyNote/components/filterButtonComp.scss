@@ -1,0 +1,8 @@
+.filter-icon {
+  transition: all 0.5s;
+  cursor: pointer;
+  color: var(--blue);
+  &:hover {
+    color: var(--white);
+  }
+}

@@ -1,8 +1,21 @@
 import React from "react";
-import "noterFilterComp.scss";
+import "./filterComp.scss";
+import NoteCountComp from "./NoteCountComp";
+import FilterButtonComp from "./FilterButtonComp";
+import { CgNotes } from "react-icons/cg";
 
-const NoteFilterComp = () => {
-  return <div>NoteFilterComp</div>;
+const FilterComp = () => {
+  return (
+    <div className="filter">
+      <p className="filter-title">
+        <CgNotes className="filter-title-icon" /> Notlarım
+      </p>
+      <div className="filter-companents">
+        <NoteCountComp />
+        <FilterButtonComp />
+      </div>
+    </div>
+  );
 };
 
-export default NoteFilterComp;
+export default FilterComp;

@@ -1,8 +1,12 @@
 import React from "react";
-import "./noteComp.scss";
+import "./singleNoteComp.scss";
 
-const NoteComp = () => {
-  return <div>NoteComp</div>;
+const SingleNoteComp = () => {
+  return (
+    <div className="single-note">
+      <h1>Notunuzu Seçiniz</h1>
+    </div>
+  );
 };
 
-export default NoteComp;
+export default SingleNoteComp;
